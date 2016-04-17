@@ -1,0 +1,30 @@
+{
+    "name": "nuclear/contracts",
+    "description": "The Nuclear Contracts package.",
+    "license": "MIT",
+    "homepage": "http://atomicframework.io",
+    "support": {
+        "issues": "https://github.com/atomicframework/framework/issues",
+        "source": "https://github.com/atomicframework/framework"
+    },
+    "authors": [
+        {
+            "name": "Mehmet Nuri Ozturk",
+            "email": "mehmet@atomicframework.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nuclear\\Contracts\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "5.3-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
